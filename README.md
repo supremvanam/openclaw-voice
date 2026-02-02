@@ -1,18 +1,18 @@
-# moltbot-voice
+# openclaw-voice
 
-Voice control for Moltbot. Talk to your AI from Siri or Alexa.
+Voice control for OpenClaw. Talk to your AI from Siri or Alexa.
 
 ## Setup
 
 ### Prerequisites
 
-- Moltbot running with HTTP API enabled
+- OpenClaw running with HTTP API enabled
 - For Siri: iOS 15+ or macOS 12+
 - For Alexa: AWS account + Alexa Developer account
 
-### Enable Moltbot HTTP API
+### Enable OpenClaw HTTP API
 
-Add to your `~/.moltbot/moltbot.json`:
+Add to your config:
 
 ```json
 {
@@ -30,10 +30,10 @@ Restart the gateway.
 
 ### Siri
 
-1. Download `siri/Ask-Moltbot.shortcut`
+1. Download `siri/Ask-OpenClaw.shortcut`
 2. Open in Shortcuts app
 3. Edit the URL and token to match your setup
-4. Say "Hey Siri, Ask Moltbot"
+4. Say "Hey Siri, Ask OpenClaw"
 
 ### Alexa
 
